@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="410" viewBox="0 0 1400 410" role="img" aria-labelledby="title desc">
+<title id="title">Faizan Ahmed Khan — AI Engineering</title>
+<desc id="desc">Dark futuristic AI engineering banner with cyan and violet neural network motifs</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090F20"/><stop offset=".55" stop-color="#101831"/><stop offset="1" stop-color="#11102B"/></linearGradient>
+  <linearGradient id="type" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#F5FBFF"/><stop offset=".72" stop-color="#EAF1FF"/><stop offset="1" stop-color="#B4C8FF"/></linearGradient>
+  <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38D9F5"/><stop offset=".5" stop-color="#809BFF"/><stop offset="1" stop-color="#BA7AFF"/></linearGradient>
+  <radialGradient id="light"><stop stop-color="#684AFF" stop-opacity=".27"/><stop offset="1" stop-color="#684AFF" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#7193D3" stroke-opacity=".09" stroke-width="1"/></pattern>
+  <filter id="glow" x="-75%" y="-75%" width="250%" height="250%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="1400" height="410" rx="22" fill="url(#bg)"/>
+<rect width="1400" height="410" rx="22" fill="url(#grid)"/>
+<circle cx="1100" cy="190" r="340" fill="url(#light)"/>
+<path d="M0 408H1400" stroke="url(#neon)" stroke-width="4" opacity=".9"/>
+<path d="M56 58H92" stroke="#39D7F2" stroke-width="4" stroke-linecap="round"/>
+<text x="108" y="63" font-family="monospace" letter-spacing="3" font-size="19" font-weight="700" fill="#89B8DD">AI ENGINEERING  <tspan fill="#50DBF2">/</tspan>  PORTFOLIO</text>
+<text x="56" y="158" fill="url(#type)" font-family="Arial, Helvetica, sans-serif" font-size="85" font-weight="800" letter-spacing="-2">FAIZAN</text>
+<text x="56" y="246" fill="url(#type)" font-family="Arial, Helvetica, sans-serif" font-size="85" font-weight="800" letter-spacing="-2">AHMED KHAN<tspan fill="#52D8F6">.</tspan></text>
+<text x="60" y="292" font-family="Arial, Helvetica, sans-serif" font-size="23" letter-spacing="1" fill="#AFC6E6">BUILDING INTELLIGENT SYSTEMS FOR THE REAL WORLD</text>
+<g font-family="monospace" font-size="16" font-weight="700" letter-spacing="1.2">
+ <rect x="58" y="320" rx="10" width="185" height="40" fill="#14394A" stroke="#3DD5EA" stroke-opacity=".5"/>
+ <text x="77" y="346" fill="#8DEBFA">AGENTIC AI</text>
+ <rect x="256" y="320" rx="10" width="160" height="40" fill="#24264F" stroke="#8C91FF" stroke-opacity=".5"/>
+ <text x="278" y="346" fill="#C3C6FF">RAG + LLMS</text>
+ <rect x="429" y="320" rx="10" width="181" height="40" fill="#30244A" stroke="#B98AFA" stroke-opacity=".5"/>
+ <text x="447" y="346" fill="#DBBDFF">ARABIC NLP</text>
+ <rect x="623" y="320" rx="10" width="135" height="40" fill="#14394A" stroke="#3DD5EA" stroke-opacity=".5"/>
+ <text x="643" y="346" fill="#8DEBFA">MLOPS</text>
+</g>
+<!-- Neural constellation / agent graph -->
+<g opacity=".65" fill="none" stroke-width="1.4">
+  <circle cx="1100" cy="206" r="159" stroke="#849AFF" stroke-dasharray="8 11"/>
+  <circle cx="1100" cy="206" r="123" stroke="#2DD8F0" stroke-opacity=".58"/>
+  <circle cx="1100" cy="206" r="87" stroke="#B58BFF" stroke-opacity=".4" stroke-dasharray="4 9"/>
+  <path d="M955 115L1043 81L1147 88L1241 146L1255 244L1177 311L1060 319L967 267L955 115" stroke="#5FD5F4"/>
+  <path d="M955 115L1100 206L1241 146M1043 81L1100 206L1255 244M1060 319L1100 206L1177 311M967 267L1147 88M967 267L1177 311M1043 81L1255 244" stroke="#967DFF" stroke-opacity=".65"/>
+  <path d="M882 205H953M1255 205H1350M1100 42V82M1100 329V376" stroke="#6F9DEE" stroke-dasharray="5 8"/>
+  <path d="M873 210L884 205L873 200M1338 200L1350 205L1338 210" stroke="#52DEF4"/>
+</g>
+<circle cx="1100" cy="206" r="55" fill="#111B37" stroke="#58DCED" stroke-width="2.5"/>
+<circle cx="1100" cy="206" r="66" fill="none" stroke="#53DFFC" stroke-opacity=".45" stroke-width="3" filter="url(#glow)"/>
+<path d="M1076 190L1058 206L1076 222M1124 190L1142 206L1124 222M1110 179L1090 232" stroke="url(#neon)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<g fill="#0D172C" stroke="#73CFFF" stroke-width="2.5">
+ <circle cx="955" cy="115" r="8"/><circle cx="1043" cy="81" r="8"/><circle cx="1147" cy="88" r="8"/><circle cx="1241" cy="146" r="8"/><circle cx="1255" cy="244" r="8"/><circle cx="1177" cy="311" r="8"/><circle cx="1060" cy="319" r="8"/><circle cx="967" cy="267" r="8"/>
+</g>
+<g font-family="monospace" font-size="14" letter-spacing="1.7" fill="#8FA9D6">
+ <text x="886" y="381">DESIGN</text><text x="1055" y="394">BUILD</text><text x="1255" y="379">DEPLOY</text>
+ <text x="1283" y="47" font-size="15" fill="#AABFF1">2026 / 01</text>
+</g>
+</svg>
