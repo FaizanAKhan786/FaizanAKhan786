@@ -29,63 +29,85 @@ Previously, I worked as a **Senior Machine Learning Engineer / Team Lead**, deli
   </tr>
 </table>
 
-## `02 / FEATURED BUILDS`
+## `02 / FEATURED AI SYSTEMS`
+
+Every project below links to its source, technical architecture and setup guide. The graphics are **original conceptual system illustrations**, not fabricated UI screenshots.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🧠 <a href="https://github.com/FaizanAKhan786/muhawir">Muḥāwir</a> <sub>محاور</sub></h3>
-      <b>Bilingual agentic knowledge assistant</b>
-      <p>Arabic/English knowledge assistant combining LangGraph orchestration, hybrid BM25 + vector retrieval, reranking, semantic caching, guardrails, and an evaluation pipeline.</p>
-      <code>LangGraph</code> <code>Qdrant</code> <code>FastAPI</code> <code>RAGAS</code>
-      <p><a href="https://github.com/FaizanAKhan786/muhawir">Explore repository →</a></p>
+      <a href="https://github.com/FaizanAKhan786/muhawir"><img src="https://raw.githubusercontent.com/FaizanAKhan786/muhawir/master/docs/project-showcase.svg" alt="Muḥāwir | محاور system architecture showcase" width="100%"/></a>
+      <h3><a href="https://github.com/FaizanAKhan786/muhawir">Muḥāwir | محاور</a></h3>
+      <p><b>Bilingual agentic knowledge assistant</b></p>
+      <p>LangGraph agent workflows, Arabic/English processing, hybrid retrieval, reranking, guardrails and quality checks.</p>
+      <p><code>LangGraph · Qdrant · RAGAS</code></p>
+      <p><a href="https://github.com/FaizanAKhan786/muhawir">Code + setup</a> · <a href="https://github.com/FaizanAKhan786/muhawir#architecture">Architecture</a></p>
+      <a href="https://github.com/FaizanAKhan786/muhawir/actions"><img src="https://img.shields.io/badge/CI-View%20live%20checks-475569?style=flat-square&logo=githubactions" alt="View live GitHub checks"/></a>
     </td>
     <td width="50%" valign="top">
-      <h3>🗣️ <a href="https://github.com/FaizanAKhan786/lahja">Lahja</a> <sub>لهجة</sub></h3>
-      <b>Gulf Arabic LLM adaptation pipeline</b>
-      <p>Config-driven dialect fine-tuning with QLoRA, evaluation, quantization/export, and streaming model serving designed with offline deployment in mind.</p>
-      <code>PyTorch</code> <code>QLoRA</code> <code>Transformers</code> <code>FastAPI</code>
-      <p><a href="https://github.com/FaizanAKhan786/lahja">Explore repository →</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎙️ <a href="https://github.com/FaizanAKhan786/sada-voice-ai">SADA Voice AI</a> <sub>صدى</sub></h3>
-      <b>Interruptible bilingual voice assistant</b>
-      <p>Arabic/English customer-support prototype with browser audio, WebSocket streaming, voice activity detection, interruption handling, and optional LLM-based answers.</p>
-      <code>FastAPI</code> <code>WebSockets</code> <code>Whisper</code> <code>Ollama</code>
-      <p><a href="https://github.com/FaizanAKhan786/sada-voice-ai">Source code →</a> · <a href="https://sada-voice-ai.onrender.com">Try the public demo →</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏢 <a href="https://github.com/FaizanAKhan786/offline-enterprise-copilot">Offline Enterprise Copilot</a></h3>
-      <b>Private, local-first AI assistant architecture</b>
-      <p>Enterprise copilot project bringing together local LLM inference, document RAG, agent workflows, access control, and an observability stack.</p>
-      <code>Ollama</code> <code>Qdrant</code> <code>Docker</code> <code>Prometheus</code>
-      <p><a href="https://github.com/FaizanAKhan786/offline-enterprise-copilot">Explore repository →</a></p>
+      <a href="https://github.com/FaizanAKhan786/sada-voice-ai"><img src="https://raw.githubusercontent.com/FaizanAKhan786/sada-voice-ai/main/docs/project-showcase.svg" alt="SADA Voice AI | صدى system architecture showcase" width="100%"/></a>
+      <h3><a href="https://github.com/FaizanAKhan786/sada-voice-ai">SADA Voice AI | صدى</a></h3>
+      <p><b>Interruptible bilingual voice prototype</b></p>
+      <p>Arabic/English browser speech, WebSocket sessions, optional LLM answers and deterministic synthetic support workflows.</p>
+      <p><code>FastAPI · Voice · WebSockets</code></p>
+      <p><a href="https://github.com/FaizanAKhan786/sada-voice-ai">Code + setup</a> · <a href="https://github.com/FaizanAKhan786/sada-voice-ai#architecture">Architecture</a> · <a href="https://sada-voice-ai.onrender.com">Hosted demo (availability varies)</a></p>
+      <a href="https://github.com/FaizanAKhan786/sada-voice-ai/actions"><img src="https://img.shields.io/badge/CI-View%20live%20checks-475569?style=flat-square&logo=githubactions" alt="View live GitHub checks"/></a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛡️ <a href="https://github.com/FaizanAKhan786/agentic-redteam-auditor">Agentic Red-Team Auditor</a></h3>
-      <b>Security testing for AI agents</b>
-      <p>Auditor that tests a deliberately vulnerable tool-using RAG agent for prompt injection, retrieval poisoning, tool misuse, and other failure modes.</p>
-      <code>Python</code> <code>LangGraph</code> <code>FAISS</code> <code>Pytest</code>
-      <p><a href="https://github.com/FaizanAKhan786/agentic-redteam-auditor">Explore repository →</a></p>
+      <a href="https://github.com/FaizanAKhan786/lahja"><img src="https://raw.githubusercontent.com/FaizanAKhan786/lahja/main/docs/project-showcase.svg" alt="Lahja | لهجة system architecture showcase" width="100%"/></a>
+      <h3><a href="https://github.com/FaizanAKhan786/lahja">Lahja | لهجة</a></h3>
+      <p><b>Gulf Arabic language model adaptation</b></p>
+      <p>Configurable dialect data preparation, QLoRA training, model evaluation, quantization and local inference API.</p>
+      <p><code>QLoRA · Transformers · FastAPI</code></p>
+      <p><a href="https://github.com/FaizanAKhan786/lahja">Code + setup</a> · <a href="https://github.com/FaizanAKhan786/lahja#architecture">Architecture</a></p>
+      <a href="https://github.com/FaizanAKhan786/lahja/actions"><img src="https://img.shields.io/badge/CI-View%20live%20checks-475569?style=flat-square&logo=githubactions" alt="View live GitHub checks"/></a>
     </td>
     <td width="50%" valign="top">
-      <h3>🎯 <a href="https://github.com/FaizanAKhan786/interviewlens-ai">InterviewLens AI</a></h3>
-      <b>Multimodal interview feedback platform</b>
-      <p>Analyze recorded interviews, review answer quality and speech patterns, identify knowledge gaps, and generate personalized practice plans.</p>
-      <code>Python</code> <code>FastAPI</code> <code>Speech AI</code> <code>Video</code>
-      <p><a href="https://github.com/FaizanAKhan786/interviewlens-ai">Explore repository →</a></p>
+      <a href="https://github.com/FaizanAKhan786/offline-enterprise-copilot"><img src="https://raw.githubusercontent.com/FaizanAKhan786/offline-enterprise-copilot/main/docs/project-showcase.svg" alt="Offline Enterprise Copilot system architecture showcase" width="100%"/></a>
+      <h3><a href="https://github.com/FaizanAKhan786/offline-enterprise-copilot">Offline Enterprise Copilot</a></h3>
+      <p><b>Private-first AI platform architecture</b></p>
+      <p>Locally served LLMs, document RAG, FastAPI orchestration and operational integrations for restricted networks.</p>
+      <p><code>Ollama · Qdrant · Docker</code></p>
+      <p><a href="https://github.com/FaizanAKhan786/offline-enterprise-copilot">Code + setup</a> · <a href="https://github.com/FaizanAKhan786/offline-enterprise-copilot#architecture">Architecture</a></p>
+      <a href="https://github.com/FaizanAKhan786/offline-enterprise-copilot/actions"><img src="https://img.shields.io/badge/CI-View%20live%20checks-475569?style=flat-square&logo=githubactions" alt="View live GitHub checks"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/FaizanAKhan786/agentic-redteam-auditor"><img src="https://raw.githubusercontent.com/FaizanAKhan786/agentic-redteam-auditor/main/docs/project-showcase.svg" alt="Agentic Red-Team Auditor system architecture showcase" width="100%"/></a>
+      <h3><a href="https://github.com/FaizanAKhan786/agentic-redteam-auditor">Agentic Red-Team Auditor</a></h3>
+      <p><b>Defensive AI security testing</b></p>
+      <p>Explore prompt injection, tool-use risks and retrieval poisoning safely with a seeded target harness and scored findings.</p>
+      <p><code>Python · RAG · Security</code></p>
+      <p><a href="https://github.com/FaizanAKhan786/agentic-redteam-auditor">Code + setup</a> · <a href="https://github.com/FaizanAKhan786/agentic-redteam-auditor#architecture">Architecture</a></p>
+      <a href="https://github.com/FaizanAKhan786/agentic-redteam-auditor/actions"><img src="https://img.shields.io/badge/CI-View%20live%20checks-475569?style=flat-square&logo=githubactions" alt="View live GitHub checks"/></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/FaizanAKhan786/interviewlens-ai"><img src="https://raw.githubusercontent.com/FaizanAKhan786/interviewlens-ai/main/docs/project-showcase.svg" alt="InterviewLens AI system architecture showcase" width="100%"/></a>
+      <h3><a href="https://github.com/FaizanAKhan786/interviewlens-ai">InterviewLens AI</a></h3>
+      <p><b>Recorded interview feedback and practice</b></p>
+      <p>Interview recording analysis, technical rubrics, learning plans, and practice workflows in a portfolio prototype.</p>
+      <p><code>FastAPI · Multimodal · Coaching</code></p>
+      <p><a href="https://github.com/FaizanAKhan786/interviewlens-ai">Code + setup</a> · <a href="https://github.com/FaizanAKhan786/interviewlens-ai#architecture">Architecture</a></p>
+      <a href="https://github.com/FaizanAKhan786/interviewlens-ai/actions"><img src="https://img.shields.io/badge/CI-View%20live%20checks-475569?style=flat-square&logo=githubactions" alt="View live GitHub checks"/></a>
     </td>
   </tr>
 </table>
 
-<p align="center">
-  <a href="https://github.com/FaizanAKhan786/production-rag-chatbot"><b>Production RAG Chatbot</b></a> &nbsp;·&nbsp;
-  <a href="https://github.com/FaizanAKhan786/faizan-ai-portfolio"><b>Interactive AI Portfolio</b></a> &nbsp;·&nbsp;
-  <a href="https://github.com/FaizanAKhan786?tab=repositories"><b>All repositories ↗</b></a>
+**Real product screenshot:** [SADA Studio dashboard](https://github.com/FaizanAKhan786/sada-voice-ai/blob/main/docs/dashboard.png) · **Additional builds:** [Production RAG Chatbot](https://github.com/FaizanAKhan786/production-rag-chatbot) · [Interactive AI Portfolio](https://github.com/FaizanAKhan786/faizan-ai-portfolio)
+
+### Build quality and reproducibility
+
+GitHub Actions badges reflect the current workflows, not claimed test pass rates. These projects have different test coverage and runtime requirements.
+
+<p>
+  <a href="https://github.com/FaizanAKhan786/muhawir/actions/workflows/ci.yml"><img src="https://github.com/FaizanAKhan786/muhawir/actions/workflows/ci.yml/badge.svg" alt="Muḥāwir CI status" /></a>&nbsp;
+  <a href="https://github.com/FaizanAKhan786/lahja/actions/workflows/ci.yml"><img src="https://github.com/FaizanAKhan786/lahja/actions/workflows/ci.yml/badge.svg" alt="Lahja CI status" /></a>&nbsp;
+  <a href="https://github.com/FaizanAKhan786/sada-voice-ai/actions/workflows/ci.yml"><img src="https://github.com/FaizanAKhan786/sada-voice-ai/actions/workflows/ci.yml/badge.svg" alt="SADA CI status" /></a>&nbsp;
+  <a href="https://github.com/FaizanAKhan786/interviewlens-ai/actions/workflows/ci.yml"><img src="https://github.com/FaizanAKhan786/interviewlens-ai/actions/workflows/ci.yml/badge.svg" alt="InterviewLens CI status" /></a>&nbsp;
+  <a href="https://github.com/FaizanAKhan786/agentic-redteam-auditor/actions/workflows/ci.yml"><img src="https://github.com/FaizanAKhan786/agentic-redteam-auditor/actions/workflows/ci.yml/badge.svg" alt="Red-Team Auditor CI status" /></a>
 </p>
 
 ## `03 / ENGINEERING TOOLKIT`
